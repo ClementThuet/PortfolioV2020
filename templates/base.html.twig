@@ -2,11 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}Clément Thuet | Portfolio{% endblock %}</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="/Portfolio/public/css/app.css">
+            <link rel="stylesheet" href="/Portfolio/public/css/bootstrap.min.css">
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+            <script src="/Portfolio/public/js/app.js"></script>
+        {% endblock %}
     </body>
 </html>

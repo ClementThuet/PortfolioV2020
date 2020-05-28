@@ -1,0 +1,184 @@
+{% extends 'base.html.twig' %}
+{% block title %}Clément Thuet | Portfolio{% endblock %}
+{% block body %}
+    <div class="container-fluid">
+        <div class="row banner-img">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <div class="collapse navbar-collapse">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#services">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#portfolio">Compétences</a>
+                        </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="#team">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">Parcours</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">        
+        <div class="row">
+            <div class="col-12">
+                <h4 class="name">Clément Thuet</h4>
+                <h1 class="title-h1">Développeur Symfony junior</h1>
+                <p class="p-description">Au cours des cinqs dernières années j'ai obtenu un BTS SIO, une licence professionelle web développeur en alternance
+                    et réalisé le parcours Développeur d'application -
+                    PHP / Symfony via OpenClassrooms.<br>
+                    Dans le même temps j'ai travaillé sur plusieurs projets annexes notamment la création et la mise en place de boutique e-commerce.<br>
+                    Cela m'a permis de développer des compétences techniques mais aussi marketing et humaines.<br>
+                </p>
+                <p class="p-description">Aujourd'hui je recherche un poste dans lequel je mettrai mes compétences en application</p>
+            </div>
+            <div class="col-12">
+                <h1 class="title-h1">Mes compétences</h1>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_symfony.png">
+                            <div> Intermediaire</div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_bootstrap.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                    <div class="col-2 logo-container">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_javascript.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_mysql.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_html.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_css.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_github.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_css.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                     <div class="col-2 logo-container">
+                        <div class="logo-container">
+                            <img class="skill-logo" src="/Portfolio/public/img/logo_javascript.png">
+                            <span> Intermediaire</span>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div>API REST</div>
+                <div>WordPress</div>
+                <div>Photoshop</div>
+            </div>
+            <div class="col-12">
+                <h1 class="title-h1">Mes réalisations</h1>
+                <div class="project">
+                    <h2 class="project-title">Gestion de bibliothèque</h2>
+                    <div id="carousel">
+                        <figure id="spinner">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                        </figure>
+                    </div>   
+                    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+                    <p class="project-description">L'école maternelle possède de nombreux albums que les élèves peuvent emprunter pour consulter chez eux.<br>
+                    L'objectif est d'avoir un système permettant de suivre les emprunts tout en permettant aux élèves de les saisir en autonomie.</p>
+                    <div class="project-detail">Année : 2020</div>
+                    <div class="project-detail">Contexte : Aide à mon ancienne école maternelle</div>
+                    <div class="project-detail">Technologie : Symfony </div>
+                </div>
+                <div class="project">
+                    <h2 class="project-title">Gestion de patientèle</h2>
+                    <div id="carousel">
+                        <figure id="spinner">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                            <img src="/Portfolio/public/img/omtifo.jpg" alt="">
+                        </figure>
+                    </div>   
+                    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+                    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+                    <p class="project-description">Logiciel développé sur mesure pour la la gestion de la patientèle. Lors des séances possibilité de retrouver les informations (notes, antécédants médicaux ...)
+                        (prise de notes, de photos)</p>
+                    <div class="project-detail">Année : 2018</div>
+                    <div class="project-detail">Contexte : Projet pour un médecin traditionel chinois</div>
+                    <div class="project-detail">Technologie : Symfony </div>
+                </div>
+                <div>
+                    <h2>SnowTricks</h2>
+                    <p>Création d'un site communautaire sur le thème du snowboard </p>
+                    <span>Année : 2019</span>
+                    <span>Contexte : Formation OpenClassrooms - Projet 6</span>
+                    <span>Technologie : Symfony </span>
+                </div>
+            </div>
+            <div class="col-12">
+                <h1 class="title-h1">Mon parcours</h1>
+                <div>
+                    <span>Formation</span>
+                    <span><a href="https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony">Développeur d'application - PHP / Symfony</a></span>
+                    <span>OpenClassrooms</span>
+                    <span>2019-2020</span>
+                </div>
+                <div>
+                    <span>Formation</span>
+                    <span>licence professionelle web développeur en alternance</span>
+                    <span>INSSET St-Quentin (02000) / Informapik (51100)</span>
+                    <span>2019-2020</span>
+                </div>
+            </div>
+            <div class="col-12">
+                <h1 class="title-h1">Funny conclusion</h1>
+            </div>
+            
+        </div>
+    </div>
+{% endblock %}
