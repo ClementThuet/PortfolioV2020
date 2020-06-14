@@ -2,37 +2,38 @@
 {% block title %}Clément Thuet | Portfolio{% endblock %}
 {% block body %}
     <div class="container-fluid">
-        <div class="row banner-img">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg fixed-top">
-                    <div class="collapse navbar-collapse">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#services">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#portfolio">Compétences</a>
-                        </li>
-                         <li class="nav-item">
-                          <a class="nav-link" href="#team">Réalisations</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">Parcours</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                </nav>
-            </div>
+        <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light navbar-solid fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                   <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Compétences</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="#team">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">Parcours</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
         </div>
     </div>
-    <div class="container">        
-        <div class="row">
-            <div class="col-12">
+    <div class="container-fluid block-dark">        
+        <div class="row ">
+            <div class="col-10 offset-1">
                 <h4 class="name">Clément Thuet</h4>
-                <h1 class="title-h1">Développeur Symfony junior</h1>
+                <h1 class="title-h1-light">Développeur Symfony junior</h1>
                 <p class="p-description">Au cours des cinqs dernières années j'ai obtenu un BTS SIO, une licence professionelle web développeur en alternance
                     et réalisé le parcours Développeur d'application -
                     PHP / Symfony via OpenClassrooms.<br>
@@ -41,77 +42,56 @@
                 </p>
                 <p class="p-description">Aujourd'hui je recherche un poste dans lequel je mettrai mes compétences en application</p>
             </div>
-            <div class="col-12">
-                <h1 class="title-h1">Mes compétences</h1>
+        </div>
+    </div>
+    <div class="container-fluid block-light">        
+        <div class="row">
+            <div class="col-10 offset-1 ">
+                <h1 class="title-h1-dark">Compétences</h1>
                 <div class="row">
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_symfony.png">
-                            <div> Intermediaire</div>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_symfony.png">
+                        <div class="skill-level"> Avancé</div>
                     </div>
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_bootstrap.png">
-                            <span> Intermediaire</span>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_bootstrap.png">
                     </div>
-                    <div class="col-2 logo-container">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_javascript.png">
-                            <span> Intermediaire</span>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_javascript.png">
                     </div>
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_mysql.png">
-                            <span> Intermediaire</span>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_mysql.png">
                     </div>
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_html.png">
-                            <span> Intermediaire</span>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_html.png">
                     </div>
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_css.png">
-                            <span> Intermediaire</span>
-                        </div>
+                    <div class="col-md-2 col-sm-3 logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_css.png">
+                    </div>
+                    <div class="col-md-2 col-sm-3  logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_github.png">
+                    </div>
+                    <div class="col-md-2 col-sm-3  logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_apirest.png">
+                    </div>
+                     <div class="col-md-2 col-sm-3  logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_wordpress.png">
+                    </div>
+                    <div class="col-md-2 col-sm-3  logo-container">
+                        <img class="skill-logo" src="/Portfolio/public/img/logo_photoshop.png">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_github.png">
-                            <span> Intermediaire</span>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_css.png">
-                            <span> Intermediaire</span>
-                        </div>
-                    </div>
-                     <div class="col-2 logo-container">
-                        <div class="logo-container">
-                            <img class="skill-logo" src="/Portfolio/public/img/logo_javascript.png">
-                            <span> Intermediaire</span>
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-                <div>API REST</div>
-                <div>WordPress</div>
-                <div>Photoshop</div>
             </div>
-            <div class="col-12">
-                <h1 class="title-h1">Mes réalisations</h1>
+        </div>
+    </div>
+    <div class="container-fluid block-dark">        
+        <div class="row">
+            <div class="col-10 offset-1">
+                <h1 class="title-h1-light">Réalisations</h1>
                 <div class="project">
                     <h2 class="project-title">Gestion de bibliothèque</h2>
                     <div id="carousel">
-                        <figure id="spinner">
+                        <figure id="spinner1">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
@@ -121,19 +101,22 @@
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                         </figure>
-                    </div>   
-                    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-                    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+                    </div>
+                    <div class="button-navigate-container">
+                        <span class="icon icon-left" onclick="galleryspin('-',1)">&lt;</span>
+                        <span class="icon icon-right" onclick="galleryspin('',1)">&gt;</span>
+                    </div>
                     <p class="project-description">L'école maternelle possède de nombreux albums que les élèves peuvent emprunter pour consulter chez eux.<br>
                     L'objectif est d'avoir un système permettant de suivre les emprunts tout en permettant aux élèves de les saisir en autonomie.</p>
-                    <div class="project-detail">Année : 2020</div>
+                    <div class="project-detail">2020</div>
                     <div class="project-detail">Contexte : Aide à mon ancienne école maternelle</div>
                     <div class="project-detail">Technologie : Symfony </div>
+                    <div class="project-detail"><a href="https://github.com/ClementThuet/BibliothequeEcole">Voir le code source </a></div>
                 </div>
                 <div class="project">
                     <h2 class="project-title">Gestion de patientèle</h2>
                     <div id="carousel">
-                        <figure id="spinner">
+                        <figure id="spinner2">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
@@ -144,41 +127,97 @@
                             <img src="/Portfolio/public/img/omtifo.jpg" alt="">
                         </figure>
                     </div>   
-                    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-                    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+                    <div class="button-navigate-container">
+                         <span  class="icon icon-left" onclick="galleryspin('-',2)">&lt;</span>
+                        <span  class="icon icon-right" onclick="galleryspin('',2)">&gt;</span>
+                    </div>
                     <p class="project-description">Logiciel développé sur mesure pour la la gestion de la patientèle. Lors des séances possibilité de retrouver les informations (notes, antécédants médicaux ...)
                         (prise de notes, de photos)</p>
-                    <div class="project-detail">Année : 2018</div>
+                    <div class="project-detail">2018</div>
                     <div class="project-detail">Contexte : Projet pour un médecin traditionel chinois</div>
                     <div class="project-detail">Technologie : Symfony </div>
                 </div>
-                <div>
-                    <h2>SnowTricks</h2>
-                    <p>Création d'un site communautaire sur le thème du snowboard </p>
-                    <span>Année : 2019</span>
-                    <span>Contexte : Formation OpenClassrooms - Projet 6</span>
-                    <span>Technologie : Symfony </span>
+                <div class="project">
+                    <h2 class="project-title">Snowtricks</h2>
+                    <div id="carousel">
+                        <figure id="spinner3">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/homepage.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/signup.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/signin.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/profil.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/tricks.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/trick.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/update-trick.png" alt="">
+                            <img src="/Portfolio/public/img/Projects/Snowtricks/new-password.png" alt="">
+                        </figure>
+                    </div> 
+                    <div class="button-navigate-container">
+                        <span class="icon icon-left" onclick="galleryspin('-',3)">&lt;</span>
+                        <span class="icon icon-right" onclick="galleryspin('',3)">&gt;</span>
+                    </div>
+                    <p class="project-description">Création d'un site communautaire sur le thème du snowboard </p>
+                    <div class="project-detail">2019</div>
+                    <div class="project-detail">Contexte : Formation OpenClassrooms - Projet 6</div>
+                    <div class="project-detail">Technologie : Symfony </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid block-light">        
+        <div class="row">
+            <div class="col-10 offset-1 ">
+                <h1 class="title-h1-dark">Formations</h1>
+                <div class="row formation-container" >
+                    <div class="col-6 formation-flex-end">
+                        <img class="formation-img" src="/Portfolio/public/img/formation-OC.jpg">
+                    </div>
+                    <div class="col-6 formation-flex-start" >
+                        <div> <span class="formation-title"><a href="https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony">Développeur d'application - PHP / Symfony</a></span><br>
+                            OpenClassrooms<br> 2019-2020</div>
+                    </div>
+                </div>
+                <div class="row formation-container" >
+                    <div class="col-6 formation-flex-end" >
+                        <div><span class="formation-title">Licence professionelle web développeur en alternance</span><br>INSSET - St-Quentin (02) / Informapik (51)<br>2016-2017
+                        </div>
+                    </div>
+                    <div class="col-6 formation-flex-start">
+                        <img class="formation-img" src="/Portfolio/public/img/formation-INSSET.jpg">
+                    </div>
+                </div>
+                <div class="row formation-container" >
+                    <div class="col-6 formation-flex-end">
+                        <img class="formation-img" src="/Portfolio/public/img/formation-BTS.jpg">
+                    </div>
+                    <div class="col-6 formation-flex-start" >
+                        <div><span class="formation-title">BTS SIO</span><br>
+                            Lycée Paul Claudel - Laon (02)<br> 2013-2015</div>
+                    </div>
+                </div>
+                <div class="row formation-container" >
+                    <div class="col-6 formation-flex-end" >
+                        <div><span class="formation-title">Baccaulauréat Scientifique</span><br>Lycée Européen - Villers-Cotterêts (02) <br>2010-2013
+                        </div>
+                    </div>
+                    <div class="col-6 formation-flex-start">
+                        <img class="formation-img" src="/Portfolio/public/img/formation-bac.jpg">
+                    </div>
                 </div>
             </div>
-            <div class="col-12">
-                <h1 class="title-h1">Mon parcours</h1>
-                <div>
-                    <span>Formation</span>
-                    <span><a href="https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony">Développeur d'application - PHP / Symfony</a></span>
-                    <span>OpenClassrooms</span>
-                    <span>2019-2020</span>
-                </div>
-                <div>
-                    <span>Formation</span>
-                    <span>licence professionelle web développeur en alternance</span>
-                    <span>INSSET St-Quentin (02000) / Informapik (51100)</span>
-                    <span>2019-2020</span>
+        </div>
+    </div>
+    <div class="container-fluid block-dark">        
+        <div class="row">
+            <div class="col-10 offset-1 ">
+                <h1 class="title-h1-light">Contact</h1>
+                <p class="p-description">Envie d'échanger avec moi ? Vous pouvez me contacter via :</p>
+                <div class="logos-container">
+                    <a href="mailto:clementthuet7@gmail.com" target="_blank"><img class="logo-contact" src="/Portfolio/public/img/logo-mail-blue.png"></a>
+                    <a href="https://github.com/ClementThuet" target="_blank"><img class="logo-contact" src="/Portfolio/public/img/logo-github.png"></a>
+                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-thuet/" target="_blank"><img class="logo-contact" src="/Portfolio/public/img/logo-lk-blue.png"></a>
                 </div>
             </div>
-            <div class="col-12">
-                <h1 class="title-h1">Funny conclusion</h1>
-            </div>
-            
         </div>
     </div>
 {% endblock %}
